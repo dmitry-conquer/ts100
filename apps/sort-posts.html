@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sort</title>
+    </head>
+    <body>
+        <div class="sort-buttons">
+            <input type="radio" name="sort-works" class="sort-button" checked value="all" />
+            <input type="radio" name="sort-works" class="sort-button" value="websites" />
+            <input type="radio" name="sort-works" class="sort-button" value="e-commerce" />
+        </div>
+        <div>
+            <div data-cat="all" >All</div>
+            <div data-cat="websites" style="display: none">1</div>
+            <div data-cat="e-commerce" style="display: none">2</div>
+        </div>
+        <script type="module" src="/src/main.ts"></script>
+    </body>
+</html>
